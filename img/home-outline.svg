@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1852"
+   sodipodi:docname="home-outline.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1856" />
+  <sodipodi:namedview
+     id="namedview1854"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="34.875"
+     inkscape:cx="11.985663"
+     inkscape:cy="12.028674"
+     inkscape:window-width="1920"
+     inkscape:window-height="1007"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1852" />
+  <title
+     id="title1848">home-outline</title>
+  <path
+     d="M12 5.69L17 10.19V18H15V12H9V18H7V10.19L12 5.69M12 3L2 12H5V20H11V14H13V20H19V12H22"
+     id="path1850" />
+  <path
+     style="fill:#fafafa;stroke-width:0.0286738"
+     d="m 5.0035842,16.000258 v -3.999742 l -1.4798838,-0.0074 -1.4798838,-0.0074 4.9788572,-4.4810781 4.9788572,-4.4810779 4.978914,4.4810779 4.978914,4.4810781 -1.481472,0.0074 -1.481471,0.0074 V 16.000258 20 H 16 13.003584 V 16.989247 13.978495 H 12 10.996416 V 16.989247 20 H 8 5.0035842 Z M 9.0179211,15.010753 V 12 H 12 14.982079 v 3.010753 3.010752 H 16 17.017921 L 17.017465,14.100358 17.017009,10.179211 14.53083,7.9426523 C 13.163433,6.7125448 12.024559,5.7060932 12,5.7060932 c -0.02456,0 -1.163433,1.0064516 -2.5308318,2.2365591 l -2.486179,2.2365587 -4.559e-4,3.921147 -4.544e-4,3.921147 H 8 9.0179211 Z"
+     id="path1858" />
+</svg>

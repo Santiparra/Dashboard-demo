@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1084"
+   sodipodi:docname="chart-ppf.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1088" />
+  <sodipodi:namedview
+     id="namedview1086"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="34.875"
+     inkscape:cx="6.2365591"
+     inkscape:cy="12.028674"
+     inkscape:window-width="1920"
+     inkscape:window-height="1007"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1084" />
+  <title
+     id="title1080">chart-ppf</title>
+  <path
+     d="M5 6V8C8.2 8 11.36 9.18 13.57 11.15C15.64 13 16.83 15.5 17 18H18.97A14 12.5 0 0 0 5 6M22 21H2V3H4V19H22Z"
+     id="path1082" />
+  <path
+     style="fill:#fafafa;stroke-width:0.0286738"
+     d="M 17.004142,17.827957 C 16.752817,15.51383 15.903205,13.622823 14.332114,11.880747 12.900378,10.293192 10.738266,9.0352333 8.4014337,8.4301611 7.3637736,8.1614816 6.1170288,7.9870838 5.2258065,7.9859466 L 5.0035842,7.9856631 V 6.9927443 5.9998254 l 0.437276,0.019313 c 1.3048832,0.057631 2.3560303,0.2102787 3.4873296,0.5064297 4.3732932,1.1448385 7.8788522,4.1672419 9.3195672,8.0350939 0.368936,0.990473 0.618044,2.121266 0.685026,3.109589 l 0.02186,0.322581 h -0.966299 -0.966299 z"
+     id="path1090" />
+  <path
+     style="fill:#fafafa;stroke-width:0.0286738"
+     d="M 2.0215054,12 V 3.0250896 H 3.0107527 4 v 8.0000004 8 h 8.989247 8.989248 V 20 20.97491 H 12 2.0215054 Z"
+     id="path1092" />
+</svg>
