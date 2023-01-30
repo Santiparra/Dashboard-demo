@@ -1,0 +1,109 @@
+:root {
+    --main-color: black;
+    --sec-color: darkred;
+    --aux-color: darkgreen;
+   
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: max-content minmax(1fr,500px);
+    grid-template-rows: max-content repeat(2, 1fr);
+    background-color: antiquewhite;
+}
+
+.sidebar {
+    background-color: var(--main-color);
+    color: white;
+    grid-row: 1 / -1;
+    display: grid;
+    grid-template-rows: max-content 3fr 1fr;
+}
+
+.header {
+    background-color: aqua;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.profile {
+
+}
+
+.management {
+    
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    grid-template-rows: max-content 1fr;
+    gap: 12px;
+}
+
+.section-title{
+    font-weight: 700;
+
+}
+
+.main-content{
+    background-color: var(--sec-color);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: max-content 1fr;
+    gap: 12px;
+    padding: 12px;
+}
+
+.feed {
+    
+    display: grid;
+    grid-template-rows: 1fr max-content 1fr;
+    
+}
+
+.feed-top,
+.feed-bot {
+    background-color: var(--aux-color);
+    display: grid;
+    grid-template-columns: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+.feed-bot-content {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.profile-pic-small {
+    width: 12px;
+    height: 12px;
+    grid-column: 1 / -1;
+
+}
+
+.user-name {
+    grid-column: 2 / 3;
+
+}
+
+.user-frase {
+    grid-column: 2 / 3;
+
+}
+ul {
+    list-style-type: none;
+}
+
+.topics {
+    background-color: darkcyan;
+    font-size: 2rem;
+}
