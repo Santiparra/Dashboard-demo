@@ -1,10 +1,12 @@
 :root {
     --main-color: #404040;
+    --sidebar-color: #262626;
     --sec-color: #e5e5e5;
     --third-color: #fafafa;
     --details-color: #0d9488;
     --font1: "Roboto";
     --font2: "Roboto Condensed";
+    --fontlogo: 'BoxfontRoundRegular';;
     --fallback-fonts: "Inter,Helvetica Neue,Helvetica,Arial,sans-serif";
 }
 
@@ -15,27 +17,29 @@ body {
     box-sizing: border-box;
 }
 
+
 .container {
+    height: 100vh;
     display: grid;
     grid-template-columns: max-content minmax(1fr,500px);
-    grid-template-rows: max-content calc(100vh);
+    grid-template-rows: auto 4fr;
     background-color: var(--sec-color);
 }
 
 .sidebar {
-    background-color: var(--main-color);
-    grid-row: 1 / 3;    
-    display: grid;
-    align-items: start;
-    /* align-content: stretch; */
+    background-image: linear-gradient(var(--sidebar-color), var(--main-color));
+    grid-row: 1 / -1;    
+    padding: 1rem;
     font-family: var(--font2);
     font-weight: 700;
     font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
 }
 
 .nav,
 .about {
-    display: grid;
     margin-right: 40px;
 }
 
@@ -44,7 +48,7 @@ a {
 }
 
 .logo {
-    padding: 4px;
+    
     display: grid;
     grid-auto-flow: column;
 }
@@ -52,11 +56,17 @@ a {
 ul {
     justify-content: start;
     list-style-type: none;
+    display: grid;
+    gap: 1rem;
 }
 
+li:hover {
+    opacity: 0.5;
+} 
+
 .sidebar-icon {
-    height: 20px;
-    width: 20px;
+    height: 2rem;
+    width: 2rem;
 }
 
 a:link {
@@ -79,10 +89,9 @@ a:link {
 }
 
 .dashboard-logo-title {
-    font-family: 'Sail';
+    font-family: var(--fontlogo);
     color: var(--third-color);
     font-size: 2rem;
-    /*     font-weight: 700; */
 }
 
 .management {
@@ -114,13 +123,17 @@ a:link {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 0.75rem;
+    font-size: 1rem;
     border-radius: 11px;
     cursor: pointer;
   }
 
+.button:hover{
+    background-color: var(--sidebar-color);
+}
+
+
 .search-bar input[type=text] {
-    /* float: right; */
     background-color: var(--sec-color);
     width: 95%;
     padding: 6px;
@@ -157,23 +170,59 @@ a:link {
 
 .content {
     display: grid;
-    grid-template-columns: 1fr max-content;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: max-content 1fr;
-    gap: 12px;
+    padding: 1rem;
+    gap: 0.5rem;
 }
 
 .section-title{
     font-weight: 700;
-
+    color: var(--main-color);
+    font-size: 1.5rem;
+    margin-left: 1rem;
 }
 
 .main-content{
     background-color: var(--sec-color);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: max-content 1fr;
-    gap: 12px;
-    padding: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: max-content max-content;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.topics {
+    background-color: var(--third-color);
+    padding: 2rem;
+    align-items: end;
+    box-shadow: 5px 10px var(--details-color);
+    display: grid;
+    grid-template-rows: max-content max-content 1fr;
+}
+
+.topics:hover {
+    box-shadow: 5px 10px var(--sidebar-color);
+    cursor: pointer;
+}
+
+.topic-header {
+    font-size: 1.5rem;
+}
+
+.topic-content {
+    font-size: 1.25rem;
+}
+
+.topic-links {
+    display: flex;
+    justify-content: end;
+    gap: 4px
+}
+
+.topic-links img {
+    height: 30px;
+    width: 30px;
 }
 
 .feed {
@@ -187,28 +236,41 @@ a:link {
 .feed-bot {
     background-color: var(--third-color);
     display: grid;
-    grid-template-columns: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
+    
+    padding: 2rem;
 } 
 
 .feed-bot-content {
-    display: grid;
-    grid-template-columns: max-content 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ftc-title {
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+.ftc-text {
+    font-size: 1rem;
 }
 
 .user-name {
     grid-column: 2 / 3;
-
+    font-weight: 700;
+    font-size: 1rem;
 }
 
 .user-frase {
     grid-column: 2 / 3;
-
+    font-size: 1rem;
+    font-style: italic;
 }
 
-.topics {
-    background-color: var(--third-color);
-    font-size: 2rem;
+.profile-pic-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    grid-row: 1 / -1;
+    background-color: var(--details-color);
 }
