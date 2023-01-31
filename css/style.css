@@ -35,7 +35,7 @@ body {
     font-size: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 3rem;
 }
 
 .nav,
@@ -57,6 +57,7 @@ ul {
     justify-content: start;
     list-style-type: none;
     display: grid;
+    justify-items: start;
     gap: 1rem;
 }
 
@@ -186,7 +187,7 @@ a:link {
 .main-content{
     background-color: var(--sec-color);
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-template-rows: max-content max-content;
     gap: 1rem;
     padding: 1rem;
@@ -226,17 +227,15 @@ a:link {
 }
 
 .feed {
-    
     display: grid;
-    grid-template-rows: 1fr max-content 1fr;
+    grid-template-rows: max-content max-content max-content;
     
 }
 
 .feed-top,
 .feed-bot {
     background-color: var(--third-color);
-    display: grid;
-    
+    display: grid;   
     padding: 2rem;
 } 
 
