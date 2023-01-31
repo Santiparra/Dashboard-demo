@@ -1,15 +1,22 @@
 # Dashboard-demo
 
+El objetivo del proyecto es poner en practica los conocimientos sobre Layouts con Grid.
+
+La pagina fue diseñada para usuario de escritorio, no cuenta con media querys asi que en pantallas con poca anchura puede tener un comportamiento inesperado.
+
+Las pautas del proyecto pueden encontrarse en:
+
+    https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
+
+
 Iconos:
 
-https://pictogrammers.com/
+    https://pictogrammers.com/
 
-Logo:
+Logo (Public Domain):
 
-https://freesvg.org/
+    https://freesvg.org/
 
-Imagenes:
+Imagenes (Pixabay License):
 
-https://pixabay.com/es/
-
-Imagen de Grimnona en Pixabay: https://pixabay.com/es/users/grimnona-3829110/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7006663
+    https://pixabay.com/es/
